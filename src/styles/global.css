@@ -10933,7 +10933,7 @@ header.masthead .bg-circle-4 {
   }
 }
 
-@media (min-width: 700px) {
+@media (min-width: 770px) {
   header.masthead {
     padding-top: calc(6rem + 32px);
     padding-bottom: 6rem;
@@ -10943,7 +10943,7 @@ header.masthead .bg-circle-4 {
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 770px) {
   * {
     text-align: center;
   }

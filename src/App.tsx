@@ -58,7 +58,7 @@ function App() {
         <CourseSection
           firstInOrderLayoutClass={'order-lg-2'}
           secondInOrderLayoutClass={'order-lg-1'}
-          title={"Como filmar/editar/postar seu primeiro vídeo no Youtube (a custo zero!)"}
+          title={"Como filmar, editar e postar seu primeiro vídeo no Youtube (a custo zero!)"}
           description={"Aprenda como como filmar, editar e postar o vídeo final no Youtube. Utilizaremos softwares gratuitos e multiplatarforma!"}
           projectImage={youtuberImage}
           courseLink={"!#"}

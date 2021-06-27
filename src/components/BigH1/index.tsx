@@ -6,7 +6,7 @@ export default function BigH1() {
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center',
-      height: '100vh',
+      height: '120vh',
       textAlign: 'center',
       color: "white",
       padding: "0 32px",
