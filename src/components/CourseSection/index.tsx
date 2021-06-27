@@ -1,3 +1,5 @@
+import { ReactNode } from "react"
+
 type CourseSectionProps = {
   firstInOrderLayoutClass: string;
   secondInOrderLayoutClass: string;
@@ -7,6 +9,8 @@ type CourseSectionProps = {
   courseLink: string;
   hasLink?: boolean;
   author?: string;
+  authorLink?: string;
+  children?: ReactNode;
 }
 
 export default function CourseSection({
@@ -17,7 +21,9 @@ export default function CourseSection({
   firstInOrderLayoutClass,
   secondInOrderLayoutClass,
   hasLink = true,
-  author = ''
+  author = '',
+  authorLink = '',
+  children = undefined
 }: CourseSectionProps) {
   return (
     <section id="scroll">
@@ -29,7 +35,13 @@ export default function CourseSection({
           <div className={`col-lg-6 ${secondInOrderLayoutClass}`}>
             <div className="p-5">
               <h2 className="display-4">{title}</h2>
-              {author && <a href="https://www.linkedin.com/in/leandrolemes/" style={{ color: '#6c757d', paddingBottom: '2rem' }}><p>{author}</p></a>}
+              {children}
+              {author && <a
+                href={authorLink ? authorLink : ''}
+                style={{ color: '#6c757d', paddingBottom: '2rem' }}
+                target="_blank"
+                rel="noreferrer"
+              ><p>{author}</p></a>}
               <p style={{ fontSize: '1.2rem', color: '#343a40' }}>{description}</p>
               <a href={courseLink} target="_blank" className={`${!hasLink ? 'disabled' : ''}`} rel="noreferrer">{`${hasLink ? 'Ir para aula...' : 'Em breve...'}`}</a>
             </div>

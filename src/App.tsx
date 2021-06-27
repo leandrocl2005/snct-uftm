@@ -42,10 +42,12 @@ function App() {
         <CourseSection
           firstInOrderLayoutClass={'order-lg-2'}
           secondInOrderLayoutClass={'order-lg-1'}
-          title={"Próteses e braços robóticos"}
-          description={"Com impressoras 3D e uma eletrônica de baixo custo criaremos protótipos de próteses para pessoas. Assista a aula e saiba como!"}
+          title={"Inteligência Artificial aplicada à robótica"}
+          description={"Como simular e projetar robôs com Inteligência artificial. Criaremos desde braços robóticos até robôs autônomos guiados por IA. Assista a aula e saiba como!"}
           projectImage={armRoboticImage}
-          courseLink={"!#"}
+          courseLink={"https://youtu.be/CAtVJJ8XG6M"}
+          author={"Prof. Dr. Vinicius Abrão da Silva Marques"}
+          authorLink={'http://lattes.cnpq.br/7677311541726478'}
         />
         <CourseSection
           firstInOrderLayoutClass={'order-lg-1'}
@@ -76,7 +78,8 @@ function App() {
           firstInOrderLayoutClass={'order-lg-2'}
           secondInOrderLayoutClass={'order-lg-1'}
           title={"Minha primeira página web"}
-          author={"Leandro Cruvinel Lemes"}
+          author={"Prof. Dr. Leandro Cruvinel Lemes"}
+          authorLink={"https://www.linkedin.com/in/leandrolemes/"}
           description={"Conheça ferramentas, linguagens e conceitos de programação web na prática criando seu primeiro site."}
           projectImage={portfolioWebImage}
           courseLink={"https://youtu.be/4rcuAZQzjzM"}
@@ -88,7 +91,23 @@ function App() {
           description={"Equipamentos elétricos e eletrônicos já trazem benefícios para a Agricultura 4.0 utilizando drones, Vant e GPS. Clique no link para saber mais!"}
           projectImage={agrotechImage}
           courseLink={"#!"}
-        />
+        >
+          <p>
+            <a
+              href="http://lattes.cnpq.br/4031929880343831"
+              style={{ color: '#6c757d', paddingBottom: '2rem' }}
+              target="_blank"
+              rel="noreferrer"
+            ><span>Prof. Esp. Gill Mayeron Duarte</span></a>,
+            <a
+              href="http://lattes.cnpq.br/2743455979085824"
+              style={{ color: '#6c757d', paddingBottom: '2rem' }}
+              target="_blank"
+              rel="noreferrer"
+
+            ><span style={{ marginLeft: '4px' }}>Prof. Msc. Matheus Oliveira Alves</span></a>
+          </p>
+        </CourseSection>
         <CourseSection
           firstInOrderLayoutClass={'order-lg-2'}
           secondInOrderLayoutClass={'order-lg-1'}
