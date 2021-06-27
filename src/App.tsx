@@ -29,7 +29,8 @@ function App() {
           title={"Impressão 3D"}
           description={"Saiba como funciona uma impressora 3D do tipo FDM e qual a importância da tecnologia de impressão 3D para o futuro."}
           projectImage={PrinterImage}
-          courseLink={"#!"}
+          author={"Prof. Dr. Marcos Massao Shimano"}
+          authorLink={"http://lattes.cnpq.br/4009855095568169"}
         />
         <CourseSection
           firstInOrderLayoutClass={'order-lg-1'}
@@ -37,7 +38,8 @@ function App() {
           title={"Robô de controle remoto utilizando Arduino"}
           description={"Aprenda robótica e desenvolva pequenos projetos para seu dia ­a­ dia utilizando Arduino e sensores."}
           projectImage={robotsImage}
-          courseLink={"#!"}
+          author={"Me. Willian Baunier de Melo"}
+          authorLink={"http://lattes.cnpq.br/0991470314090937"}
         />
         <CourseSection
           firstInOrderLayoutClass={'order-lg-2'}
@@ -55,7 +57,8 @@ function App() {
           title={"Visão Geral de IA e suas diversas aplicações no nosso cotidiano"}
           description={"A Inteligência Artificial já é parte do nosso dia a dia e nem percebemos. Será que você está usando algum tipo de inteligência artificial?"}
           projectImage={pianoRobotImage}
-          courseLink={"!#"}
+          author={"Profa. Dr. Júlia Bertelli Duarte"}
+          authorLink={"http://lattes.cnpq.br/4241344268170383"}
         />
         <CourseSection
           firstInOrderLayoutClass={'order-lg-2'}
@@ -63,7 +66,8 @@ function App() {
           title={"Como filmar, editar e postar seu primeiro vídeo no Youtube (a custo zero!)"}
           description={"Aprenda como como filmar, editar e postar o vídeo final no Youtube. Utilizaremos softwares gratuitos e multiplatarforma!"}
           projectImage={youtuberImage}
-          courseLink={"!#"}
+          author={"Prof. Dr. Heron Martins Felix"}
+          authorLink={"http://lattes.cnpq.br/0146795903898489"}
         />
         <CourseSection
           firstInOrderLayoutClass={'order-lg-1'}
@@ -71,8 +75,9 @@ function App() {
           title={"Oficina de Visão Computacional"}
           description={"Técnicas convolucionais! Saiba como essas técnicas ajudam robôs a reconhecerem objetos em imagens fotográficas digitais."}
           projectImage={computerVisionImage}
-          courseLink={"!#"}
           hasLink={false}
+          author={"Prof. Dr. Paulo Balduino Flabes Neto"}
+          authorLink={"http://lattes.cnpq.br/6496119903436467"}
         />
         <CourseSection
           firstInOrderLayoutClass={'order-lg-2'}
@@ -90,7 +95,6 @@ function App() {
           title={"Agricultura 4.0"}
           description={"Equipamentos elétricos e eletrônicos já trazem benefícios para a Agricultura 4.0 utilizando drones, Vant e GPS. Clique no link para saber mais!"}
           projectImage={agrotechImage}
-          courseLink={"#!"}
         >
           <p>
             <a
@@ -114,7 +118,8 @@ function App() {
           title={'Caixa de Areia em Realidade Aumentada ­ "Caixa Topográfica Interativa"'}
           description={"Modelos topográficos em superfícies e em tempo real.  Mapas de cores em elevação com linhas de contorno topográficas e água simulada. Só clicar no link abaixo!"}
           projectImage={virtualRealityImage}
-          courseLink={"https://www.youtube.com/watch?v=pf-TVjGNlfE"}
+          author={"Profa. Dra. Paula Aguiar Silva"}
+          authorLink={"http://lattes.cnpq.br/7032218407447122"}
         />
       </div>
     </>

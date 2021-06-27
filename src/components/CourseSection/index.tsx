@@ -6,7 +6,7 @@ type CourseSectionProps = {
   title: string;
   description: string;
   projectImage: string;
-  courseLink: string;
+  courseLink?: string;
   hasLink?: boolean;
   author?: string;
   authorLink?: string;
@@ -14,7 +14,7 @@ type CourseSectionProps = {
 }
 
 export default function CourseSection({
-  courseLink,
+  courseLink = '',
   projectImage,
   description,
   title,
@@ -43,7 +43,19 @@ export default function CourseSection({
                 rel="noreferrer"
               ><p>{author}</p></a>}
               <p style={{ fontSize: '1.2rem', color: '#343a40' }}>{description}</p>
-              <a href={courseLink} target="_blank" className={`${!hasLink ? 'disabled' : ''}`} rel="noreferrer">{`${hasLink ? 'Ir para aula...' : 'Em breve...'}`}</a>
+              {courseLink ?
+                <a
+                  href={courseLink}
+                  target="_blank"
+                  rel="noreferrer"
+                >Ir para aula...</a> :
+                <a
+                  href={courseLink}
+                  target="_blank"
+                  rel="noreferrer"
+                  className={'disabled'}
+                >Em breve...</a>
+              }
             </div>
           </div>
         </div>
