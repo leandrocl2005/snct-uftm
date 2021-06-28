@@ -8,7 +8,7 @@ import portfolioWebImage from './assets/portfolioWeb.jpg';
 import robotsImage from './assets/robots.jpg';
 import armRoboticImage from './assets/armRobotic.jpg';
 import pianoRobotImage from './assets/pianoRobot.jpg';
-import youtuberImage from './assets/youtuber.jpg';
+import youtuberImage from './assets/movieAction.jpg';
 import agrotechImage from './assets/agrotech.jpg';
 import virtualRealityImage from './assets/virtualReality.jpg';
 import computerVisionImage from './assets/computerVision.jpg';
@@ -68,6 +68,7 @@ function App() {
           projectImage={youtuberImage}
           author={"Prof. Dr. Heron Martins Felix"}
           authorLink={"http://lattes.cnpq.br/0146795903898489"}
+          courseLink={"https://youtu.be/55l3n2POaI0"}
         />
         <CourseSection
           firstInOrderLayoutClass={'order-lg-1'}
