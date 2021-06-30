@@ -8,7 +8,7 @@ import portfolioWebImage from './assets/portfolioWeb.jpg';
 import robotsImage from './assets/robots.jpg';
 import armRoboticImage from './assets/armRobotic.jpg';
 import pianoRobotImage from './assets/pianoRobot.jpg';
-import youtuberImage from './assets/movieAction.jpg';
+import youtuberImage from './assets/editedMovieAction.jpg';
 import agrotechImage from './assets/agrotech.jpg';
 import virtualRealityImage from './assets/virtualReality.jpg';
 import computerVisionImage from './assets/computerVision.jpg';
