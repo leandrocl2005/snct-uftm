@@ -59,6 +59,7 @@ function App() {
           projectImage={pianoRobotImage}
           author={"Profa. Dr. Júlia Bertelli Duarte"}
           authorLink={"http://lattes.cnpq.br/4241344268170383"}
+          courseLink={"https://youtu.be/qu1h8fvHJS8"}
         />
         <CourseSection
           firstInOrderLayoutClass={'order-lg-2'}
