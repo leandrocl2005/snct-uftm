@@ -80,6 +80,7 @@ function App() {
           hasLink={false}
           author={"Prof. Dr. Paulo Balduino Flabes Neto"}
           authorLink={"http://lattes.cnpq.br/6496119903436467"}
+          courseLink={"https://youtu.be/n2KnYyWQgNk"}
         />
         <CourseSection
           firstInOrderLayoutClass={'order-lg-2'}
