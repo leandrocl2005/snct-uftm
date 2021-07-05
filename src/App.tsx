@@ -98,17 +98,24 @@ function App() {
           title={"Agricultura 4.0"}
           description={"Equipamentos elétricos e eletrônicos já trazem benefícios para a Agricultura 4.0 utilizando drones, Vant e GPS. Clique no link para saber mais!"}
           projectImage={agrotechImage}
+          courseLink={"https://youtu.be/i9izws5EyCQ"}
         >
           <p>
             <a
-              href="http://lattes.cnpq.br/4031929880343831"
+              href="http://lattes.cnpq.br/1042428262927249"
               style={{ color: '#6c757d', paddingBottom: '2rem' }}
               target="_blank"
               rel="noreferrer"
-            ><span>Prof. Esp. Gill Mayeron Duarte</span></a>,
+            ><span>Prof. Dr. Abimael Cereda Junior</span></a>,
+            <a
+              href="http://lattes.cnpq.br/4031929880343831"
+              style={{ color: '#6c757d', paddingBottom: '2rem', marginLeft: '0.5rem' }}
+              target="_blank"
+              rel="noreferrer"
+            ><span>Prof. Esp. Gill Mayeron Duarte</span></a> e
             <a
               href="http://lattes.cnpq.br/2743455979085824"
-              style={{ color: '#6c757d', paddingBottom: '2rem' }}
+              style={{ color: '#6c757d', paddingBottom: '2rem', marginLeft: '0.5rem' }}
               target="_blank"
               rel="noreferrer"
 
