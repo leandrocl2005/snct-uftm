@@ -54,7 +54,7 @@ export default function CourseSection({
                   target="_blank"
                   rel="noreferrer"
                   className={'disabled'}
-                >Em breve...</a>
+                >Disponível em 04/10/2021...</a>
               }
             </div>
           </div>

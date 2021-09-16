@@ -47,7 +47,7 @@ function App() {
           title={"Inteligência Artificial aplicada à robótica"}
           description={"Como simular e projetar robôs com Inteligência artificial. Criaremos desde braços robóticos até robôs autônomos guiados por IA. Assista a aula e saiba como!"}
           projectImage={armRoboticImage}
-          courseLink={"https://youtu.be/CAtVJJ8XG6M"}
+          // courseLink={"https://youtu.be/CAtVJJ8XG6M"}
           author={"Prof. Dr. Vinicius Abrão da Silva Marques"}
           authorLink={'http://lattes.cnpq.br/7677311541726478'}
         />
@@ -59,7 +59,7 @@ function App() {
           projectImage={pianoRobotImage}
           author={"Profa. Dr. Júlia Bertelli Duarte"}
           authorLink={"http://lattes.cnpq.br/4241344268170383"}
-          courseLink={"https://youtu.be/qu1h8fvHJS8"}
+        // courseLink={"https://youtu.be/qu1h8fvHJS8"}
         />
         <CourseSection
           firstInOrderLayoutClass={'order-lg-2'}
@@ -69,7 +69,7 @@ function App() {
           projectImage={youtuberImage}
           author={"Prof. Dr. Heron Martins Felix"}
           authorLink={"http://lattes.cnpq.br/0146795903898489"}
-          courseLink={"https://youtu.be/55l3n2POaI0"}
+        // courseLink={"https://youtu.be/55l3n2POaI0"}
         />
         <CourseSection
           firstInOrderLayoutClass={'order-lg-1'}
@@ -80,7 +80,7 @@ function App() {
           hasLink={false}
           author={"Prof. Dr. Paulo Balduino Flabes Neto"}
           authorLink={"http://lattes.cnpq.br/6496119903436467"}
-          courseLink={"https://youtu.be/ZSRouyP5JFw"}
+        // courseLink={"https://youtu.be/ZSRouyP5JFw"}
         />
         <CourseSection
           firstInOrderLayoutClass={'order-lg-2'}
@@ -90,7 +90,7 @@ function App() {
           authorLink={"https://www.linkedin.com/in/leandrolemes/"}
           description={"Conheça ferramentas, linguagens e conceitos de programação web na prática criando seu primeiro site."}
           projectImage={portfolioWebImage}
-          courseLink={"https://youtu.be/4rcuAZQzjzM"}
+        // courseLink={"https://youtu.be/4rcuAZQzjzM"}
         />
         <CourseSection
           firstInOrderLayoutClass={'order-lg-1'}
@@ -98,7 +98,7 @@ function App() {
           title={"Agricultura 4.0"}
           description={"Equipamentos elétricos e eletrônicos já trazem benefícios para a Agricultura 4.0 utilizando drones, Vant e GPS. Clique no link para saber mais!"}
           projectImage={agrotechImage}
-          courseLink={"https://youtu.be/i9izws5EyCQ"}
+        // courseLink={"https://youtu.be/i9izws5EyCQ"}
         >
           <p>
             <a
