@@ -17,6 +17,19 @@ export default function Header() {
             }}
             href="#courses"
           >IR PARA AS ATIVIDADES</a>
+          {/*<br/><a
+            className="btn px-5 py-2 btn-primary rounded-pill"
+            style={{
+              backgroundColor: "white",
+              color: "#ee0979",
+              fontFamily: "Roboto",
+              fontWeight: 700,
+              fontSize: '1.2rem',
+              border: "0px",
+              marginTop: "24px"
+            }}
+            href="#subscriptions"
+          >Inscrições</a>*/}
         </div>
       </div>
       <div className="bg-circle-1 bg-circle"></div>

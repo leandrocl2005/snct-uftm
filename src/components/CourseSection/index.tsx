@@ -11,6 +11,7 @@ type CourseSectionProps = {
   author?: string;
   authorLink?: string;
   children?: ReactNode;
+  subscriptionLink?: string;
 }
 
 export default function CourseSection({
@@ -23,7 +24,8 @@ export default function CourseSection({
   hasLink = true,
   author = '',
   authorLink = '',
-  children = undefined
+  children = undefined,
+  subscriptionLink=''
 }: CourseSectionProps) {
   return (
     <section id="scroll">
@@ -56,6 +58,11 @@ export default function CourseSection({
                   className={'disabled'}
                 >Disponível em 04/10/2021...</a>
               }
+              {/*<a href={subscriptionLink} style={{
+                display: "block",
+                textDecoration: "underline",
+                color: "#ee0979"
+              }}>Inscrever-se agora!!!</a>*/}
             </div>
           </div>
         </div>
