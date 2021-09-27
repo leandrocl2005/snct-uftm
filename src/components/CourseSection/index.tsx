@@ -62,7 +62,7 @@ export default function CourseSection({
                 display: "block",
                 textDecoration: "underline",
                 color: "#ee0979"
-              }}>Inscrever-se agora!!!</a>*/}
+              }}>Lista de presença!!!</a>*/}
             </div>
           </div>
         </div>

@@ -142,8 +142,15 @@ function App() {
           subscriptionLink={'https://forms.gle/C2fK2dF4SpfRczkW9'}
         />
       </div>
-      {/* <div id="subscriptions" className="mt-5 pt-5" style={{paddingBottom: '64px', backgroundColor: '#000', minHeight: "720px"}}>
-      <h1 id="courses" className="mt-5 mb-5 text-center fs-1" style={{ color: "#ee0979" }}>Inscrições</h1>         
+      {/*<div id="subscriptions" className="mt-5 pt-5" style={{paddingBottom: '64px', backgroundColor: '#000', minHeight: "720px"}}>
+      <h1 id="courses" className="mt-5 mb-1 text-center fs-1" style={{ color: "#ee0979" }}>Listas de presença</h1>
+      <p style={{
+        display: 'flex',
+        justifyContent: 'center',
+        marginBottom: '64px',
+        color: '#777',
+        fontSize: '1rem'
+      }}>Preencha o formulário de cada curso que assistir para receber seu certificado.</p>         
         <SubscriptionItem 
           title="Impressão 3D"
           projectImage={PrinterImage}
@@ -198,8 +205,7 @@ function App() {
           subscriptionLink={'https://forms.gle/C2fK2dF4SpfRczkW9'}
           altText="Pessoa com óculos de realidade virtual"
         />
-
-  </div>*/}
+    </div>*/}
     </>
   );
 }
