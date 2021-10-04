@@ -35,7 +35,7 @@ export default function Header() {
             marginRight: '8px',
             fontSize: '1.6rem'
           }}/>Discord</a>
-          {/*<br/><a
+          <br/><a
             className="btn px-5 py-2 btn-primary rounded-pill"
             style={{
               backgroundColor: "white",
@@ -47,7 +47,7 @@ export default function Header() {
               marginTop: "24px"
             }}
             href="#subscriptions"
-          >Listas de presença</a>*/}
+          >Listas de presença</a>
         </div>
       </div>
       <div className="bg-circle-1 bg-circle"></div>

@@ -14,7 +14,7 @@ import virtualRealityImage from './assets/virtualReality.jpg';
 import computerVisionImage from './assets/computerVision.jpg';
 
 import './styles/global.css';
-// import SubscriptionItem from './components/SubscriptionItem';
+import SubscriptionItem from './components/SubscriptionItem';
 
 function App() {
   return (
@@ -31,6 +31,7 @@ function App() {
           description={"Saiba como funciona uma impressora 3D do tipo FDM e qual a importância da tecnologia de impressão 3D para o futuro."}
           projectImage={PrinterImage}
           author={"Prof. Dr. Marcos Massao Shimano"}
+          courseLink="https://youtu.be/r9ipU73MOBQ"
           subscriptionLink={'https://forms.gle/Yy1WZz2kPs5FUbJZA'}
           authorLink={"http://lattes.cnpq.br/4009855095568169"}
         />
@@ -50,7 +51,7 @@ function App() {
           title={"Inteligência Artificial aplicada à robótica"}
           description={"Como simular e projetar robôs com Inteligência artificial. Criaremos desde braços robóticos até robôs autônomos guiados por IA. Assista a aula e saiba como!"}
           projectImage={armRoboticImage}
-          // courseLink={"https://youtu.be/CAtVJJ8XG6M"}
+          courseLink={"https://youtu.be/CAtVJJ8XG6M"}
           subscriptionLink={'https://forms.gle/VTRM7K9ouW5YCpNE7'}
           author={"Prof. Dr. Vinicius Abrão da Silva Marques"}
           authorLink={'http://lattes.cnpq.br/7677311541726478'}
@@ -64,7 +65,7 @@ function App() {
           author={"Profa. Dr. Júlia Bertelli Duarte"}
           authorLink={"http://lattes.cnpq.br/4241344268170383"}
           subscriptionLink={'https://forms.gle/NxAJsJ9umSXQVZfv9'}
-        // courseLink={"https://youtu.be/qu1h8fvHJS8"}
+          courseLink={"https://youtu.be/qu1h8fvHJS8"}
         />
         <CourseSection
           firstInOrderLayoutClass={'order-lg-2'}
@@ -75,7 +76,7 @@ function App() {
           author={"Prof. Dr. Heron Martins Felix"}
           authorLink={"http://lattes.cnpq.br/0146795903898489"}
           subscriptionLink={'https://forms.gle/agwrmKGtigJGDJrJ9'}
-        // courseLink={"https://youtu.be/55l3n2POaI0"}
+          courseLink={"https://youtu.be/55l3n2POaI0"}
         />
         <CourseSection
           firstInOrderLayoutClass={'order-lg-1'}
@@ -87,7 +88,7 @@ function App() {
           author={"Prof. Dr. Paulo Balduino Flabes Neto"}
           authorLink={"http://lattes.cnpq.br/6496119903436467"}
           subscriptionLink={'https://forms.gle/ADnU7UpPQeGvTYQW8'}
-        // courseLink={"https://youtu.be/ZSRouyP5JFw"}
+          courseLink={"https://youtu.be/ZSRouyP5JFw"}
         />
         <CourseSection
           firstInOrderLayoutClass={'order-lg-2'}
@@ -98,7 +99,7 @@ function App() {
           description={"Conheça ferramentas, linguagens e conceitos de programação web na prática criando seu primeiro site."}
           projectImage={portfolioWebImage}
           subscriptionLink={'https://forms.gle/u2froRxTYWuoWKFq5'}
-        // courseLink={"https://youtu.be/4rcuAZQzjzM"}
+          courseLink={"https://youtu.be/4rcuAZQzjzM"}
         />
         <CourseSection
           firstInOrderLayoutClass={'order-lg-1'}
@@ -107,7 +108,7 @@ function App() {
           description={"Equipamentos elétricos e eletrônicos já trazem benefícios para a Agricultura 4.0 utilizando drones, Vant e GPS. Clique no link para saber mais!"}
           projectImage={agrotechImage}
           subscriptionLink={'https://forms.gle/mRQS1nR4p7q1P5xW8'}
-        // courseLink={"https://youtu.be/i9izws5EyCQ"}
+          courseLink={"https://youtu.be/i9izws5EyCQ"}
         >
           <p>
             <a
@@ -140,9 +141,10 @@ function App() {
           author={"Profa. Dra. Paula Aguiar Silva"}
           authorLink={"http://lattes.cnpq.br/7032218407447122"}
           subscriptionLink={'https://forms.gle/C2fK2dF4SpfRczkW9'}
+          courseLink="https://youtu.be/V41ztmkCZyM"
         />
       </div>
-      {/*<div id="subscriptions" className="mt-5 pt-5" style={{paddingBottom: '64px', backgroundColor: '#000', minHeight: "720px"}}>
+      <div id="subscriptions" className="mt-5 pt-5" style={{paddingBottom: '64px', backgroundColor: '#000', minHeight: "720px"}}>
       <h1 id="courses" className="mt-5 mb-1 text-center fs-1" style={{ color: "#ee0979" }}>Listas de presença</h1>
       <p style={{
         display: 'flex',
@@ -205,7 +207,7 @@ function App() {
           subscriptionLink={'https://forms.gle/C2fK2dF4SpfRczkW9'}
           altText="Pessoa com óculos de realidade virtual"
         />
-    </div>*/}
+    </div>
     </>
   );
 }
