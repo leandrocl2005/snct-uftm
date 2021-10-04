@@ -44,6 +44,7 @@ function App() {
           author={"Me. Willian Baunier de Melo"}
           authorLink={"http://lattes.cnpq.br/0991470314090937"}
           subscriptionLink={'https://forms.gle/jGA2LC3f9QojwbiT8'}
+          courseLink="https://youtu.be/KGn4xmNaK-M"
         />
         <CourseSection
           firstInOrderLayoutClass={'order-lg-2'}
